@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 
 st.set_page_config(page_title="Portfolio", layout="wide", page_icon=":rocket:")
 st.title("Portfolio Saya")
@@ -16,3 +18,5 @@ elif page == "Kontak":
 elif page == "Proyek":
     import visualisasi
     visualisasi.tampilkan_visualisasi()
+
+
